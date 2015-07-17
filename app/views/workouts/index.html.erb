@@ -1,0 +1,18 @@
+<h1 class="main">Hello Mark</h1>
+<h2>Are you ready to workout today?</h2>
+
+
+<h1>Workouts</h1>
+
+<% @workouts.each do |workouts| %>
+  <a class="workoutstag" href="/workouts/<%= workouts.id %>"><%= workouts.name %></a><br>
+<% end %>
+
+
+
+<h1>Logs</h1>
+
+<a href="">Core 2015/17/07 </a><br>
+<a href="">Core 2015/15/07 </a><br>
+<a href="">Upper Body  2015/12/07 </a><br>
+<a href="">Total Body  2015/08/06 </a><br>

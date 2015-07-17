@@ -1,0 +1,66 @@
+
+
+<header>
+<%= image_tag "shapeshifter.gif", size: "1000x700", class: 'image' %>
+
+</header>
+
+
+<div class="intro">
+<h1 class="main">Welcome to ShapeShifter</h1>
+<h2>25 Minute BodyWeight Workouts for Busy Travelers</h2>
+
+<p> As a person with a busy schedule, you may not always have time to get to the gym. With Shapeshifter, we give you a quick, invigorating <br> 25 workout that you can do almost anywhere that has a wifi connection. Be it a hotel room, your living room, or even at the park. </p>
+
+<h3> All you need is: <h3>
+
+	<p class='needs_text'> A Towel </p>
+	<%= image_tag "towel.png", size: "400x400", class: 'needs' %>
+	<p class='needs_text'> A Water Bottle </p>
+	<%= image_tag "waterbottle.png", size: "400x400", class: 'needs' %>
+	<p class='needs_text'> A Chair </p>
+	<%= image_tag "chair.png", size: "400x400", class: 'needs' %>
+	<p class='needs_text'> Your Computer </p>
+	<%= image_tag "computer.png", size: "400x400", class: 'needs' %>
+
+</div>
+
+<div class="overview">
+	<%= image_tag "mountainclimber.gif", size: "1000x1200", class: 'openerimage' %>
+	<div class="overview_words">
+	<p>Each workout consists of 10 exercises timed at 2 minutes each, with a 30 second rest period in between. <br> Just follow along with the animated instructor. We also give tips on proper form.</p>
+	</div>
+
+
+
+</div>
+
+<div class="signin_containter">
+
+
+	<div class="login">
+	<h1>Sign In</h1>
+	<%= form_tag '/login' do %>
+		<%= label_tag(:label, "Enter Email") %><br>
+	  <%= text_field_tag :email %><br>
+	  <%= label_tag :label, "Enter Password" %><br>
+	  <%= password_field_tag :password %><br>
+	  <%= submit_tag "Sign In", class: 'submit' %>
+	<% end %>
+	</div> <!-- login -->
+
+	<div class="sign-up">
+		<h1>Sign Up</h1>
+		<%= form_tag '/login' do %>
+		<%= label_tag(:label, "Enter Name") %><br>
+		  <%= text_field_tag :name %><br>
+			<%= label_tag(:label, "Enter Email") %><br>
+		  <%= text_field_tag :email %><br>
+		  <%= label_tag :label, "Enter Password" %><br>
+		  <%= password_field_tag :password %><br>
+		  <%= submit_tag "Sign Up", class: 'submit' %>
+		<% end %>
+	</div> <!-- login -->
+
+</div> <!-- container -->
+

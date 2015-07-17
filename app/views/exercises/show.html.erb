@@ -1,0 +1,35 @@
+
+
+<h1><%= @exercise.name %> </h1>
+<p>Do as many of each exercise that you can for 2 minutes.</p>
+
+<p class='method'> <%= @exercise.method %> </p>
+
+
+<%= image_tag @exercise.image_url, size: "500x600", class: 'image' %>
+
+</header>
+
+
+<div class="exercise_timer"> 
+
+
+</div>
+
+
+<div class="rest_timer"> 
+
+</div>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function(){
+		<% if (@next != nil && @exercise.workout_id == @next.workout_id) %>
+			console.log('<%= @next %>')
+			popupLogSheet(1000, moveToNextExercise, <%=[@next.id]%>)
+		<% else %>
+			popupLogSheet(0, function(){
+				window.open('/workouts/')
+			});
+		<% end %>
+})
+</script>
