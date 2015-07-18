@@ -1,8 +1,17 @@
-<h1><%= @workout.name %> </h1>
+<header>
+<%= image_tag "logoheader.png", size: "1200x300", class: 'image' %>
+
+</header>
+
+<div class="imagediv">
+<%= image_tag "workoutpage.png", size: "500x300", class: 'image' %>
+</div>
+
+<h1 class="main"><%= @workout.name %> </h1>
 
 <p> directions</p>
 
-<a class="button" href="/workouts/<%= @workout.id %>"><%= @workout.name %></a><br>
+<!-- <a class="button" href="/workouts/<%= @workout.id %>"><%= @workout.name %></a><br> -->
 
 <a href="/exercises/<%= @exercises[0].id%>"><button>START</button>
 

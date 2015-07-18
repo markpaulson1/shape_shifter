@@ -1,11 +1,63 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,100,400,200);
 
 header{
-	text-align: center;
+	/*text-align: center;*/
 	background: #48698E;
 	margin: 0;
 	padding: 0;
 }
+
+.imagediv{
+  /*text-align: center;*/
+  background: #808080;
+  margin: 0;
+  padding: 0;
+}
+
+.intropp{
+	margin: auto;
+	width: 70%;
+	text-align: center;
+}
+
+.container_container{
+	  margin-left: 10%;
+  margin-right: 10%
+}
+
+.container_container2{
+    margin-left: 14%;
+  margin-right: 14%
+}
+
+.need_container{
+  width:100%;
+  margin:0;
+  padding: 20px;
+  border:0;
+  overflow:hidden; 
+}
+.four{
+  display:block;
+  width:25%;
+  height:50%;
+  float:left; 
+}
+
+.work_container{
+  width:100%;
+  margin: 0;
+  padding: 20px;
+  border:0;
+  overflow:hidden; 
+}
+.workout_col{
+  display:block;
+  width:50%;
+  height:50%;
+  float:left; 
+}
+
 
 body{
 margin: 0;
@@ -29,7 +81,16 @@ font-weight: 100;
 font-size: 100px;
 color: #666467;
 margin-bottom: 0;
-margin-top:;
+margin-top:60px;
+}
+
+.main2{
+font-family: 'Raleway', sans-serif;
+font-weight: 200;
+font-size: 40px;
+color: #666467;
+margin-bottom: 0;
+margin-top:40px;
 }
 
 h2{
@@ -68,14 +129,17 @@ margin-top: -30px;
 }
 
 .footer{
-	margin-top: 40px;
-	padding: 40px;
+  position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
 	font-family: 'Raleway', sans-serif;
-font-weight: 100;
-font-size: 12px;
-color: #666467;
-
+	font-weight: 100;
+	font-size: 12px;
+	color: #666467;
 }
+
 .openerimage{
 	background: white;
 padding-left:300px;
@@ -83,5 +147,49 @@ padding-right: 1000px;
 }
 
 .overview_words{
-margin-top: -1200px;
+margin-top: -1150px;
+margin-bottom: 0;
+}
+
+/*shidden*/
+
+.signup_container{
+	margin-top: -40px;
+}
+
+.logInForm{
+	margin-top: -100px;
+}
+
+.submitForm{
+	margin-top: -140px;
+}
+
+.hidden {
+    display: none;
+}
+
+.launchButtons {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.logInButton {
+    text-align: center;
+
+}
+
+.signUpButton {
+    text-align: center;
+}
+
+.width {
+    width: 400px;
+    height: 50px;
+    font-size: 18px;
+}
+
+input{
+	font-size: 24px;
+	width: 400px;
 }

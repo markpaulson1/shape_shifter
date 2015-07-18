@@ -1,25 +1,27 @@
-
-
-<h1><%= @exercise.name %> </h1>
-<p>Do as many of each exercise that you can for 2 minutes.</p>
-
-<p class='method'> <%= @exercise.method %> </p>
-
-
-<%= image_tag @exercise.image_url, size: "500x600", class: 'image' %>
+<header>
+<%= image_tag "logoheader.png", size: "600x150", class: 'image' %>
 
 </header>
 
 
-<div class="exercise_timer"> 
+<div class="exer_container">
 
+	<div class="exercises_method"> 
+			<h1 class="main2"><%= @exercise.name %> </h1>
+			<p>Do as many of each exercise that you can for 2 minutes.</p>
+			<p class='method'> <%= @exercise.method %> </p>
+			<div class="exercise_timer"> 
+			</div>
+			<div class="rest_timer"> 
+			</div>
+	</div>
 
-</div>
+	<div class="exercise_image"> 
+		<%= image_tag @exercise.image_url, size: "500x600", class: 'image' %>
+		</div>
 
+</div> <!-- exercontainer -->
 
-<div class="rest_timer"> 
-
-</div>
 
 <script>
 	document.addEventListener('DOMContentLoaded', function(){

@@ -1,18 +1,28 @@
-<h1 class="main">Hello Mark</h1>
-<h2>Are you ready to workout today?</h2>
+<header>
+<%= image_tag "logoheader.png", size: "1200x300", class: 'image' %>
 
+</header>
+<div class="imagediv">
+<%= image_tag "workoutlogpage.png", size: "500x250", class: 'image' %>
+</div>
 
-<h1>Workouts</h1>
+<h2 class="main2">Hello Mark, Are you ready to workout today?</h2>
+<div class="container_container2">
+<div class="work_container">
 
-<% @workouts.each do |workouts| %>
-  <a class="workoutstag" href="/workouts/<%= workouts.id %>"><%= workouts.name %></a><br>
-<% end %>
+		<div class="workout_col">
+			<h1>Workouts</h1>
+			<% @workouts.each do |workouts| %>
+			  <a class="button" href="/workouts/<%= workouts.id %>"><%= workouts.name %></a><br>
+			<% end %>
+		</div>
 
-
-
-<h1>Logs</h1>
-
-<a href="">Core 2015/17/07 </a><br>
-<a href="">Core 2015/15/07 </a><br>
-<a href="">Upper Body  2015/12/07 </a><br>
-<a href="">Total Body  2015/08/06 </a><br>
+		<div class="workout_col">
+			<h1>Logs</h1>
+			<a href="" class="button">Core 2015/17/07 </a><br>
+			<a href="" class="button">Core 2015/15/07 </a><br>
+			<a href="" class="button">Upper Body  2015/12/07 </a><br>
+			<a href="" class="button">Total Body  2015/08/06 </a><br>
+		</div>
+	</div>  <!-- containercontainer -->
+</div> <!-- container -->
