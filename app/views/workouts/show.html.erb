@@ -1,17 +1,14 @@
 <header>
-<%= image_tag "logoheader.png", size: "1200x300", class: 'image' %>
-
+	<%= image_tag "logoheader.png", size: "1200x300", class: 'image' %>
 </header>
 
 <div class="imagediv">
-<%= image_tag "workoutpage.png", size: "500x300", class: 'image' %>
+	<%= image_tag "workoutpage.png", size: "500x300", class: 'image' %>
 </div>
 
 <h1 class="main"><%= @workout.name %> </h1>
 
 <p> Directions: Do as many reps of each exercise for the timed length,<br> enter your total in the log,  and then move on to the next exercise.</p>
-
-<!-- <a class="button" href="/workouts/<%= @workout.id %>"><%= @workout.name %></a><br> -->
 
 <a href="/exercises/<%= @exercises[0].id%>"><button>START</button>
 

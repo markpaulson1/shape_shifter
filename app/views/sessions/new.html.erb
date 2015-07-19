@@ -1,25 +1,20 @@
 
-
 <header>
-<%= image_tag "shapeshifter.gif", size: "1000x700", class: 'image' %>
-<p class="mainhead">S H A P E <span style="font-weight: 700">S H I F T E R</span></p>
+	<%= image_tag "shapeshifter.gif", size: "1000x700", class: 'image' %>
+	<p class="mainhead">S H A P E <span style="font-weight: 700">S H I F T E R</span></p>
 </header>
 
 
 <div class="intro">
-<!-- <h1 class="main">Welcome to ShapeShifter</h1> -->
-<h2 class="intro2">25 Minute BodyWeight Workouts for Busy Travelers</h2>
+	<h2 class="intro2">25 Minute BodyWeight Workouts for Busy Travelers</h2>
 </div>
 
 <div class="intropp">
-<p> As a person with a busy schedule, you may not always have time to get to the gym. With Shapeshifter, we give you a quick, invigorating 25 workout that you can do almost anywhere that has a wifi connection. Be it a hotel room, your living room, or even at the park. </p>
+	<p> As a person with a busy schedule, you may not always have time to get to the gym. With Shapeshifter, we give you a quick, invigorating 25 workout that you can do almost anywhere that has a wifi connection. Be it a hotel room, your living room, or even at the park. </p>
 </div>
 
 <h3> All you need is: <h3>
 
-
-
-     
 <div "container_container">
 	<div class="need_container">
 
@@ -39,8 +34,6 @@
 				<%= image_tag "chair.png", size: "400x400", class: 'needs' %>
 			</div> <!-- col -->
 
-
-
 			<div class="four">
 				<p class='needs_text'> Your Computer </p>
 				<%= image_tag "computer.png", size: "400x400", class: 'needs' %>
@@ -51,44 +44,42 @@
 <div class="overview">
 	<%= image_tag "mountainclimber.gif", size: "1000x1200", class: 'openerimage' %>
 	<div class="overview_words">
-	<p>Each workout consists of 10 exercises timed at 2 minutes each, with a 30 second rest period in between. <br> Just follow along with the animated instructor. We also give tips on proper form.</p>
+		<p>Each workout consists of 10 exercises timed at 2 minutes each, with a 30 second rest period in between. <br> Just follow along with the animated instructor. We also give tips on proper form.</p>
 	</div>
-
-
 
 
 <div class="signin_container">
 
 	<div class="launchButtons">
-		 <button class="logInButton width" style="border-color: #666467 ">Log in
-    </button>
-<div class="logInForm hidden">
-	<%= form_tag '/login' do %>
-		<%= label_tag(:label, "Enter Email") %><br>
-	  <%= text_field_tag :email %><br>
-	  <%= label_tag :label, "Enter Password" %><br>
-	  <%= password_field_tag :password %><br>
-	  <%= submit_tag "Sign In", class: 'submit' %>
-	<% end %>
-	
-	</div> <!-- loginForm -->
+		 <button class="logInButton width" style="border-color: #666467 ">Log in</button>
 
-<br>
-<button class="signUpButton width" style="border-color: #666467 ">Sign up
-    </button>
-	<div class="submitForm hidden">
-		<%= form_tag '/login' do %>
-		<%= label_tag(:label, "Enter Name") %><br>
-		  <%= text_field_tag :name %><br>
-			<%= label_tag(:label, "Enter Email") %><br>
-		  <%= text_field_tag :email %><br>
-		  <%= label_tag :label, "Enter Password" %><br>
-		  <%= password_field_tag :password %><br>
-		  <%= submit_tag "Sign Up", class: 'submit' %>
-		<% end %>
-	</div> <!-- submitformhidden -->
+		<div class="logInForm hidden">
+			<%= form_tag '/login' do %>
+				<%= label_tag(:label, "Enter Email") %><br>
+			  <%= text_field_tag :email %><br>
+			  <%= label_tag :label, "Enter Password" %><br>
+			  <%= password_field_tag :password %><br>
+			  <%= submit_tag "Sign In", class: 'submit' %>
+			<% end %>
+		</div> <!-- loginForm -->
 
-</div> <!-- launchbutton -->
+	<br>
+
+		<button class="signUpButton width" style="border-color: #666467 ">Sign up</button>
+
+		<div class="submitForm hidden">
+			<%= form_tag '/login' do %>
+			<%= label_tag(:label, "Enter Name") %><br>
+			  <%= text_field_tag :name %><br>
+				<%= label_tag(:label, "Enter Email") %><br>
+			  <%= text_field_tag :email %><br>
+			  <%= label_tag :label, "Enter Password" %><br>
+			  <%= password_field_tag :password %><br>
+			  <%= submit_tag "Sign Up", class: 'submit' %>
+			<% end %>
+		</div> <!-- submitformhidden -->
+
+	</div> <!-- launchbutton -->
 
 </div> <!-- container -->
 

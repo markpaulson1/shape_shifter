@@ -1,12 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,100,400,200);
 
 header{
-	/*text-align: center;*/
 	background: #48698E;
 	margin: 0;
 	padding: 0;
-   position: relative; 
-   width: 100%;
+  position: relative; 
+  width: 100%;
 }
 
 .mainhead{
@@ -16,11 +15,11 @@ header{
   text-align: center;
   color: white;
   position: absolute; 
-   top: 300px; 
-   left: 0; 
-   width: 100%;
-   letter-spacing: 30px;
-   opacity: .6;
+  top: 300px; 
+  left: 0; 
+  width: 100%;
+  letter-spacing: 30px;
+  opacity: .6;
 }
 
 .intro2{
@@ -30,7 +29,6 @@ header{
 }
 
 .imagediv{
-  /*text-align: center;*/
   background: #808080;
   margin: 0;
   padding: 0;
@@ -43,12 +41,12 @@ header{
 }
 
 .container_container{
-	  margin-left: 10%;
+	margin-left: 10%;
   margin-right: 10%
 }
 
 .container_container2{
-    margin-left: 14%;
+  margin-left: 14%;
   margin-right: 14%
 }
 
@@ -100,7 +98,6 @@ header{
   width:50%;
   height:50%;
   float:left; 
-  
 }
 
 .image{
@@ -109,46 +106,45 @@ header{
 }
 
 body{
-margin: 0;
-font-family: 'Raleway', sans-serif;
-font-weight: 100;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
 	text-align: center;
 	background: #ECEEEC;
 }
 
 h1{
-font-family: 'Raleway', sans-serif;
-font-weight: 100;
-font-size: 80px;
-
-color: #666467;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 80px;
+  color: #666467;
 }
 
 .main{
-font-family: 'Raleway', sans-serif;
-font-weight: 100;
-font-size: 100px;
-color: #666467;
-margin-bottom: 0;
-margin-top:60px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 100px;
+  color: #666467;
+  margin-bottom: 0;
+  margin-top:60px;
 }
 
 .main2{
-font-family: 'Raleway', sans-serif;
-font-weight: 100;
-font-size: 60px;
-color: #666467;
-margin-bottom: 0;
-margin-top:40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 60px;
+  color: #666467;
+  margin-bottom: 0;
+  margin-top:40px;
 }
 
 .main3{
-font-family: 'Raleway', sans-serif;
-font-weight: 100;
-font-size: 65px;
-color: #666467;
-margin-bottom: 0;
-margin-top:40px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 65px;
+  color: #666467;
+  margin-bottom: 0;
+  margin-top:40px;
 }
 
 #workout_timer{
@@ -163,71 +159,67 @@ margin-top:40px;
 
 .direction1{
   margin-top: 25px;
-font-weight: 700;
-font-size: 33px;
-
+  font-weight: 700;
+  font-size: 33px;
 }
 
 
 h2{
-font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 40px;
-color: #666467;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #666467;
 }
 
 h3{
-font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 35px;
-color: #666467;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  color: #666467;
 }
 
 p{
-font-family: 'Raleway', sans-serif;
-font-weight: 100;
-font-size: 30px;
-color: #666467;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  color: #666467;
 }
 
 .needs_text{
-font-family: 'Raleway', sans-serif;
-font-weight: 100;
-font-size: 30px;
-color: #666467;
-margin: 0;
-padding: 0;
-
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  color: #666467;
+  margin: 0;
+  padding: 0;
 }
 
 .needs{
-margin-top: -30px;
+  margin-top: -30px;
 }
 
 .footer{
   position:relative;
-   left:0px;
-   bottom:0px;
-   height:100px;
-   width:100%;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 100;
-	font-size: 12px;
-	color: #666467;
+  left:0px;
+  bottom:0px;
+  height:100px;
+  width:100%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  color: #666467;
 }
 
 .openerimage{
 	background: white;
-padding-left:300px;
-padding-right: 1000px;
+  padding-left:300px;
+  padding-right: 1000px;
 }
 
 .overview_words{
-margin-top: -1150px;
-margin-bottom: 0;
+  margin-top: -1150px;
+  margin-bottom: 0;
 }
-
-/*shidden*/
 
 .signup_container{
 	margin-top: -40px;
@@ -243,29 +235,29 @@ margin-bottom: 0;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .launchButtons {
-    text-align: center;
-    margin-top: 150px;
+  text-align: center;
+  margin-top: 150px;
 }
 
 .logInButton {
-    margin-left: 8px;
-    text-align: center;
-    line-height: 50px;
+  margin-left: 8px;
+  text-align: center;
+  line-height: 50px;
 }
 
 .signUpButton {
-    text-align: center;
-    line-height: 50px;
+  text-align: center;
+  line-height: 50px;
 }
 
 .width {
-    width: 400px;
-    height: 50px;
-    font-size: 18px;
+  width: 400px;
+  height: 50px;
+  font-size: 18px;
 }
 
 input{

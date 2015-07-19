@@ -7,9 +7,9 @@
 <div class="exer_container">
 
 	<div class="exercise_col1"> 
-			<h1 class="main3"><%= @exercise.name %> </h1>
-			<p class="direction1">Do as many of each exercise that you can for 2 minutes.</p>
-			<p class='method'> <%= @exercise.method %> </p>
+		<h1 class="main3"><%= @exercise.name %> </h1>
+		<p class="direction1">Do as many of each exercise that you can for 2 minutes.</p>
+		<p class='method'> <%= @exercise.method %> </p>
 			<div id="workout_timer">
 				Do as many as you can for :0<span>6</span> 
 			</div>
@@ -20,13 +20,12 @@
 
 	<div class="exercise_col2"> 
 		<%= image_tag @exercise.image_url, size: "700x900", class: 'image' %>
-		</div>
+	</div>
 
 </div> <!-- exercontainer -->
 
 
 <script>
-
 
 var sec = 4
 var timer = setInterval(function() { 
@@ -47,7 +46,5 @@ var timer = setInterval(function() {
 			});
 		<% end %>
 })
-
-
 
 </script>
