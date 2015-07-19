@@ -1,6 +1,6 @@
 function popupLogSheet(resttime, callback, args){
 	setTimeout(function(){
-		alert('log sheet to come')
+		prompt('enter reps completed:')
 		if (callback) {
 			callback.apply(this, args);
 		}
