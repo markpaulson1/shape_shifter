@@ -5,6 +5,28 @@ header{
 	background: #48698E;
 	margin: 0;
 	padding: 0;
+   position: relative; 
+   width: 100%;
+}
+
+.mainhead{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  font-size: 45px;
+  text-align: center;
+  color: white;
+  position: absolute; 
+   top: 300px; 
+   left: 0; 
+   width: 100%;
+   letter-spacing: 30px;
+   opacity: .6;
+}
+
+.intro2{
+  font-size: 44px;
+  font-weight: 200;
+  margin-top: 30px;
 }
 
 .imagediv{
@@ -58,6 +80,33 @@ header{
   float:left; 
 }
 
+.exer_container{
+  width:100%;
+  margin: 0;
+  padding: 20px;
+  border:0;
+  overflow:hidden; 
+}
+.exercise_col1{
+  display:block;
+  margin-left: 12%;
+  width:25%;
+  height:50%;
+  float:left; 
+}
+
+.exercise_col2{
+  display:block;
+  width:50%;
+  height:50%;
+  float:left; 
+  
+}
+
+.image{
+  background: white;
+  border-radius: 10px;
+}
 
 body{
 margin: 0;
@@ -86,12 +135,39 @@ margin-top:60px;
 
 .main2{
 font-family: 'Raleway', sans-serif;
-font-weight: 200;
-font-size: 40px;
+font-weight: 100;
+font-size: 60px;
 color: #666467;
 margin-bottom: 0;
 margin-top:40px;
 }
+
+.main3{
+font-family: 'Raleway', sans-serif;
+font-weight: 100;
+font-size: 65px;
+color: #666467;
+margin-bottom: 0;
+margin-top:40px;
+}
+
+#workout_timer{
+  background: white;
+  border-radius: 20px;
+  height: 60px;
+  width: 600px;
+  font-weight: 100;
+  font-size: 33px;
+  margin-left: -20px;
+}
+
+.direction1{
+  margin-top: 25px;
+font-weight: 700;
+font-size: 33px;
+
+}
+
 
 h2{
 font-family: 'Raleway', sans-serif;
@@ -129,10 +205,10 @@ margin-top: -30px;
 }
 
 .footer{
-  position:fixed;
+  position:relative;
    left:0px;
    bottom:0px;
-   height:30px;
+   height:100px;
    width:100%;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
@@ -155,6 +231,7 @@ margin-bottom: 0;
 
 .signup_container{
 	margin-top: -40px;
+  padding-bottom:100px;
 }
 
 .logInForm{
@@ -175,12 +252,14 @@ margin-bottom: 0;
 }
 
 .logInButton {
+    margin-left: 8px;
     text-align: center;
-
+    line-height: 50px;
 }
 
 .signUpButton {
     text-align: center;
+    line-height: 50px;
 }
 
 .width {
@@ -191,5 +270,6 @@ margin-bottom: 0;
 
 input{
 	font-size: 24px;
-	width: 400px;
+	width: 500px;
+  height: 90px;
 }

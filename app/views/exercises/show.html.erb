@@ -6,32 +6,48 @@
 
 <div class="exer_container">
 
-	<div class="exercises_method"> 
-			<h1 class="main2"><%= @exercise.name %> </h1>
-			<p>Do as many of each exercise that you can for 2 minutes.</p>
+	<div class="exercise_col1"> 
+			<h1 class="main3"><%= @exercise.name %> </h1>
+			<p class="direction1">Do as many of each exercise that you can for 2 minutes.</p>
 			<p class='method'> <%= @exercise.method %> </p>
-			<div class="exercise_timer"> 
+			<div id="workout_timer">
+				Do as many as you can for :0<span>6</span> 
 			</div>
+
 			<div class="rest_timer"> 
 			</div>
 	</div>
 
-	<div class="exercise_image"> 
-		<%= image_tag @exercise.image_url, size: "500x600", class: 'image' %>
+	<div class="exercise_col2"> 
+		<%= image_tag @exercise.image_url, size: "700x900", class: 'image' %>
 		</div>
 
 </div> <!-- exercontainer -->
 
 
 <script>
+
+
+var sec = 4
+var timer = setInterval(function() { 
+   $('#workout_timer span').text(sec--);
+   if (sec == -1) {
+      $('#hideMsg').fadeOut('fast');
+      clearInterval(timer);
+   } 
+}, 1000);
+
 	document.addEventListener('DOMContentLoaded', function(){
 		<% if (@next != nil && @exercise.workout_id == @next.workout_id) %>
 			console.log('<%= @next %>')
-			popupLogSheet(1000, moveToNextExercise, <%=[@next.id]%>)
+			popupLogSheet(6000, moveToNextExercise, <%=[@next.id]%>)
 		<% else %>
 			popupLogSheet(0, function(){
 				window.open('/workouts/')
 			});
 		<% end %>
 })
+
+
+
 </script>

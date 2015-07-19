@@ -10,7 +10,7 @@ function popupLogSheet(resttime, callback, args){
 function moveToNextExercise(nextId){
 	setTimeout(function(){
 		window.open('/exercises/'+nextId)
-	}, 1000);
+	}, 6000);
 }
 
 
