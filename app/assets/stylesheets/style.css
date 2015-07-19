@@ -265,3 +265,8 @@ input{
 	width: 500px;
   height: 90px;
 }
+
+.show_hide {
+    display:none;
+}
+
