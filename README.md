@@ -9,4 +9,11 @@ My final project is a 25 minute workouts for travelers. It can be done in your h
 
 It's designed to be easy to use while you are on the road and it operates on a 2 minute timed excercise, 30 second rest period for 10 exercises. 25 minutes and you are done.
 
-I am going to build this in rails, and use jquery, javascript, SASS and HTML.
+I am going to build this in rails, and use jquery, javascript, CSS and HTML
+
+Also used Skeleton, but I hate it. 
+
+
+HEROKU:
+
+https://calm-crag-1118.herokuapp.com/
