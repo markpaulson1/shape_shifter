@@ -12,8 +12,19 @@ It's designed to be easy to use while you are on the road and it operates on a 2
 I am going to build this in rails, and use jquery, javascript, CSS and HTML
 
 Also used Skeleton, but I hate it. 
+It says to get it in the url, but skip that.
+http://getskeleton.com/
 
 
-HEROKU:
+###HEROKU:
 
 https://calm-crag-1118.herokuapp.com/
+
+###TRELLO:
+
+https://trello.com/b/CHXPF1Jc/mark-paulson-final-shapeshifter-app
+
+
+
+
+
